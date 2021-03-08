@@ -13,13 +13,18 @@
     <div id="app">{{ name }}
         {{ age }}
         {{ '守信' }}
+        {{ ma.a }}
+        {{ ma.b }}
     </div>
     <script>
         const vm = new Vue({
             el: '#app',
             data: {
-                age: 27,
-                name: 'QiZhiXu'
+                age: 25,
+                name: 'QiZhiXu',
+                ma: {
+                    a: '你好'
+                }
             }
         })
     </script>
